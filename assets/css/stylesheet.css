@@ -37,4 +37,9 @@ cursor: pointer;
     background-color: black;
     display: inline-block;
 }
-
+#quote-container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+  }
