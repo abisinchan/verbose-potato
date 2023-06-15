@@ -38,8 +38,8 @@ function printEntryData() {
     var rowEl = $('<tr>');
     var dateEl = $('<td>').text(entry.date);
     var titleEl = $('<td>').text(entry.title);
-    var entryEl = $('<td>').text(entry.entry);
-    // var deleteEl = $('<td>').html('<button class="btn btn-sm">X</button>');
+    var entryEl = $('<td>').html('<textarea class="form-control" rows="3" wrap="soft" readonly>' + entry.entry + '</textarea>');
+
 
         // Save the index of the project as a data-* attribute on the button. This
     // will be used when removing the project from the array.
