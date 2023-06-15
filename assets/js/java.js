@@ -21,7 +21,7 @@ fetch("https://type.fit/api/quotes")
   const api_key = "ct9FoYc2orZ7OGg0yzDIKfgCOaj5Ea7H";
 const search_term = "positive+thoughts";
 const limit = 25;
-const num_display_gifs = 5;
+const num_display_gifs = 4;
 
 // Fetch GIFs from GIPHY API
 const url = `https://api.giphy.com/v1/gifs/search?api_key=${api_key}&q=${search_term}&limit=${limit}`;
