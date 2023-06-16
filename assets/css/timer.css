@@ -20,11 +20,11 @@ h1{
 #timer{
 font-size: 40px;
 font-weight: 700;
-
 }
+
 body{
-    background-image: url(/assets/img/Sea\ of\ Clouds-10s-2558px.svg);
-    background-size:unset;
+    background-image: url(/assets/img/clouds.jpg);
+    background-color: lightblue;
 }
 section{
     display: flex;
@@ -39,9 +39,7 @@ section{
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-top: 150px;
-   
-   
+    margin-top: 150px; 
 }
 
 /* pulsing sun */
