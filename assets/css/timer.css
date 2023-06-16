@@ -23,8 +23,7 @@ font-weight: 700;
 }
 
 body{
-    background-image: url(/assets/img/clouds.jpg);
-    background-color: lightblue;
+
 }
 section{
     display: flex;
