@@ -36,25 +36,120 @@
   </nav>
 
     <h1>How are you feeling?</h1>
-<!--button gague-->    
-<div class="container">
 
   <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-    <button type="button" class="btn btn-danger">1</button>
-    <button type="button" class="btn btn-danger">2</button>
-    <button type="button" class="btn btn-danger">3</button>
-    <button type="button" class="btn btn-warning">4</button>
-    <button type="button" class="btn btn-warning">5</button>
-    <button type="button" class="btn btn-warning">6</button>
-    <button type="button" class="btn btn-success">7</button>
-    <button type="button" class="btn btn-success">8</button>
-    <button type="button" class="btn btn-success">9</button>
-    <button type="button" class="btn btn-success">10</button>
+    <button type="button" class="btn btn-danger"data-bs-toggle="modal" data-bs-target="#red">1</button>
+    <button type="button" class="btn btn-danger"data-bs-toggle="modal" data-bs-target="#red">2</button>
+    <button type="button" class="btn btn-danger"data-bs-toggle="modal" data-bs-target="#red">3</button>
+    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#yellow">4</button>
+    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#yellow">5</button>
+    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#yellow">6</button>
+    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#green">7</button>
+    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#green">8</button>
+    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#green">9</button>
+    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#green">10</button>
   </div>
 
-  <div id="cardcontainer"class="card overflow-auto">
-    <div class="card-body">
-      <table id="feelingsTable" class="table h-50 w-25">
+  
+  <!-- Modal -->
+  <div class="modal fade" id="red" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">It's logged in your Journal</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <h6>Hi, I know it sucks today. Lets get help. Here a some resources:</h6>
+         <ul class="modalLinks">
+    
+          <li class ="resTitle">Suicide and Crisis Hotline
+              <li>Call or Text 988</li>
+              <li>Chat at <a href="https://988lifeline.org/chat" target="_blank">988 Life Line</a></li>
+          </li>
+      
+          <li class ="resTitle">National Domestic Violence Hotline
+              <li>Call 1-800-799-7233</li>
+              <li>Text "LOVEIS" to 22522</li>
+          </li>
+      
+          <li class ="resTitle">National Child Abuse Hotline
+              <li>Call 1-800-422-4453</li>
+              <li>Text 1-800-422-4453</li>
+          </li>
+      
+          <li class ="resTitle">National Sexual Assualt Hotline
+              <li>Call 1-800-656-4673</li>
+              <li>Chat <a href="https://hotline.rainn.org/online" target="_blank">Rainn Hotline</a></li>
+          </li>
+      
+          <li class ="resTitle">Trans Lifeline
+              <li>Call 1-877-565-8860</li>
+          </li>
+      
+          <li class ="resTitle">Veterans Crisis Line
+              <li>Call 988, then select 1</li>
+              <li>Text 838255</li>
+          </li>
+         
+      </ul>
+      
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <a href="./journal.html" class="btn btn-primary" target="_blank">Journal</a>
+
+        
+        </div>
+      </div>
+    </div>
+  </div> 
+
+    <!-- Modal -->
+    <div class="modal fade" id="yellow" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">It's logged in your Journal</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <h6>I know its overwhelming, </h6>
+            Would you like to take a minute to breathe?
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <a href="./timer.html" class="btn btn-primary" target="_blank">Timer</a>
+              <a href="./journal.html" class="btn btn-primary" target="_blank">Journal</a>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+        <!-- Modal -->
+  <div class="modal fade" id="green" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">It's logged in your Journal</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         <h6>Hi, I'm glad you're feeling better! </h6>
+        Take some time to journal your feelings, or maybe exercise your breathing!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <a href="./timer.html" class="btn btn-primary" target="_blank">Timer</a>
+          <a href="./journal.html" class="btn btn-primary" target="_blank">Journal</a>
+        </div>
+      </div>
+    </div>
+  </div> 
+<!-- gaugetable -->
+  
+    <div id="cardcontainer" class="card-body" style="display: none">
+      <table id="feelingsTable" class="table">
         <thead>
           <tr>
             <th>Date</th>
@@ -65,8 +160,8 @@
         <tbody></tbody>
       </table>
     </div>
-  </div>
-</div>   
+ 
+
 
 </div>
 <!--Quote display-->
