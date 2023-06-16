@@ -23,8 +23,7 @@ font-weight: 700;
 
 }
 body{
-    background-image: url(/assets/img/Sea\ of\ Clouds-10s-2558px.svg);
-    background-size:unset;
+  background-image: radial-gradient(circle, rgb(41, 170, 230), rgb(202, 202, 119), rgb(146, 230, 146));
 }
 section{
     display: flex;

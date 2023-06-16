@@ -1,6 +1,7 @@
 body{
     text-align: center;
     align-items: center;
+    background-image: radial-gradient(circle, rgb(41, 170, 230), rgb(202, 202, 119), rgb(146, 230, 146));
 }
 .container{
     align-items: center;
