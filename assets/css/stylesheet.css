@@ -7,49 +7,6 @@ body{
     position:relative;
 }
 
-/* button{
-height:200px;
-width: 200px;
-border-radius: 50%;
-margin: 100px 50px;
-border:none;
-cursor: pointer;
-} */
-
-#css-buttonR {
-    height:200px;
-    width: 200px;
-    border-radius: 50%;
-    margin: 100px 50px 50px 50px;
-    border:none;
-    cursor: pointer;
-    }
-
-#css-buttonG {
-    height:200px;
-    width: 200px;
-    border-radius: 50%;
-    margin: 100px 50px 50px 50px;
-    border:none;
-    cursor: pointer;
-    }
-
-.greenbtn{
-    background-color: green;
-
-}
-
-.redbtn{
-    background-color: rgb(196, 31, 31);
-
-}
-
-.prompt{
-    display: flex;
-   justify-content: center;
-
-}
-
 .youtube{
    
     background-color: black;
@@ -64,4 +21,14 @@ cursor: pointer;
 
 h1{
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* modal */
+.modalLinks{
+    text-align: left;
+}
+.resTitle{
+    list-style: none;
+    font-weight: 500;
 }
