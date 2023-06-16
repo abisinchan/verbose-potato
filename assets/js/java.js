@@ -9,10 +9,15 @@ fetch("https://type.fit/api/quotes")
     
     // Retrieve the random quote from the data
     var randomQuote = data[randomIndex].text;
-    
+    var randomAuthor = data[randomIndex].author;
+
+    // Check if the author is null and assign "unknown" in that case
+    if (randomAuthor === null) {
+      randomAuthor = "unknown";
+    }
     // Display the random quote on the webpage
     var quoteElement = document.getElementById("quote-container");
-    quoteElement.textContent = randomQuote;
+    quoteElement.textContent = '"' + randomQuote + '" - ' + randomAuthor;
   });
 
 
