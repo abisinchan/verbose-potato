@@ -1,0 +1,15 @@
+body{
+   
+    background-image: url("./gray.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family:"Lato";
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    margin-top: 30px;;
+}

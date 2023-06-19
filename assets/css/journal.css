@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    align-items: center;
+    background-image: url("./gray.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: "Lato";
+    margin: 0;
+    padding: 0;
+
+}
+
+header, #gageTable, #entryTable{
+    background-color: #e1e8ec83;
+      
+
+}
+
+
+
+#gageTable, #entryTable{
+   height: 550px;
+    overflow:scroll;
+}
+
+@media screen and (max-width: 768px){
+    #gageTable, #entryTable{
+        height: 300px;
+         overflow:scroll;
+     }
+     
+}
