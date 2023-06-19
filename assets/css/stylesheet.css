@@ -1,29 +1,107 @@
+*{
+    box-sizing: border-box;
+}
 body{
     text-align: center;
     align-items: center;
-    background-image: radial-gradient(circle, rgb(41, 170, 230), rgb(202, 202, 119), rgb(146, 230, 146));
+    background-image: url("./mental.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: "Lato";
+    margin: 0;
+    padding: 0;
+
 }
-.container{
+main{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    position:relative;
+    flex-direction: column;
+    position: relative;
 }
-
-
-.youtube{
+.mainLanding{
+   width: 85vw;
+    height: 90vh;
+    margin-top: 50px;
+    margin-bottom: 10px;
    
-    background-color: black;
-    display: inline-block;
+    
 }
+
+.mainLanding, .youtube, .gifs{
+background-color: #ffffffdc;
+box-shadow: 3px 3px 6px 5px rgba(0, 0, 255, .1);
+border-radius: 25px;    
+}
+
+h1{
+    font-size: 6vw;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-shadow: rgb(101, 116, 116) 1px 0 px;
+}
+#scaleP{
+margin-bottom: 50px;
+}
+p{ 
+    font-size: 2vw;
+    font-weight: 600;
+}
+#btnSm{
+
+    font-size: 2vw;
+}
+
 #quote-container {
     text-align: center;
     margin-top: 50px;
     font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 2vw;
   }
+
+  .gifs{
+  
+    padding-left: 10px;
+    width: 38vw;
+    padding: 10px;
+   
+  }
+
+  .gifcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+  }
+
+.section2{
+    display: flex;
+    justify-content: center;
+    vertical-align:top;
+    margin-bottom: 40px;
+    gap: 30px;
+    width: 85vw;
+}
+.youtube{
+  padding:20px; 
+  
+}
+#ytBox{
+    margin-top: 45px;
+    width: 45vw;
+    height: 56vh;
+}
+
 
 h1{
     margin-top: 50px;
-    margin-bottom: 50px;
+}
+
+img{
+    height: 30vh;
+    width: 16vw;
 }
 
 /* modal */
@@ -34,3 +112,48 @@ h1{
     list-style: none;
     font-weight: 500;
 }
+
+@media screen and (max-width: 790px) {
+    .section2{
+        flex-direction: column;
+ }
+
+ .gifs{
+    width: 85vw;
+    height: 46vh;
+ }
+
+
+}
+
+@media screen and (max-width: 740px) {
+  
+
+img{
+    height: 30vh;
+    width: 20vw;
+}
+
+
+}
+
+@media screen and (max-width: 484px) {
+  
+
+    #btnSm{
+        font-size: 3vw;
+        padding: 10px;
+    }
+    
+    }
+
+@media screen and (max-width: 545px) {
+    
+
+    img{
+        height: 24vh;
+        width: 19vw;
+    }
+    
+    
+    }

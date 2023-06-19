@@ -1,4 +1,3 @@
-// Modify the variable names to match your variables
 var journalDisplayEl = $('#journal-display');
 var journalFormEl = $('#journal-form');
 var journalTitleInputEl = $('#journal-title-input');

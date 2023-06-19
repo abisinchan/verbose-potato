@@ -1,12 +1,10 @@
-// Selects element by class
 var timeEl = document.querySelector(".time");
-var secondsLeft = 60;
 var headingEl = document.querySelector("h1");
+var secondsLeft = 60;
 var originalHeadingText = headingEl.textContent;
 var originalHeadingParent = headingEl.parentNode;
 
 function setTime() {
-  // Sets interval in variable
   var timerInterval = setInterval(function() {
     if (!timeEl.contains(headingEl)) {
       originalHeadingParent.appendChild(headingEl);
@@ -16,7 +14,6 @@ function setTime() {
     timeEl.textContent = secondsLeft + " seconds";
 
     if (secondsLeft === 0) {
-      // Stops execution of action at set interval
       clearInterval(timerInterval);
 
       // Clear existing text and append new text
