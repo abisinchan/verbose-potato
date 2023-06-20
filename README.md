@@ -1,4 +1,5 @@
 # <verbose-potatoe>
+Project 1 6/20/23
 
 ## Description
 The motivation behind this project was having personal experiences dealing with anxiety, depression and mental health. We've built this project to have it be a resource or a place to fall on when dealing with difficult emotions. We've structured this site to have the user express what they are going through, and providing alternative distractions that may help calm, heal and maybe even make someone smile. We learned that even a simple site can be laborious but we enjoyed piecing things together to make it work. We are aware that there is room for a lot of improvements, and hope that after we become more educated in coding, that we can come back and make this site better, more user friendly, safe with security measures, and with the user being able to  store in a cloud and not in local storage, where if they clear the browser history and cache , how everything disappears. 
