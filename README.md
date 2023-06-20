@@ -52,6 +52,10 @@ MIT.
 Deployed Site:
 https://abisinchan.github.io/verbose-potato/index.html
 
+## Github Repo
+Repo Site:
+https://github.com/abisinchan/verbose-potato
+
 
 
 
